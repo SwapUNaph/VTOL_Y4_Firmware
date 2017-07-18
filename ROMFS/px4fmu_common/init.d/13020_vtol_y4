@@ -1,0 +1,53 @@
+#!nsh
+#
+# @name VTOL Y4
+# @type VTOL Tiltrotor
+# @maintainer Swapneel Naphade <naphadeswapneel@gmail.com>
+# @output MAIN1 Front right motor
+# @output MAIN2 Front left motor
+# @output MAIN3 Back motor bottom
+# @output MAIN4 Back motor top
+# @output AUX1 Tilt servo
+# @output AUX2 Elevon 1
+# @output AUX3 Elevon 2
+# @output AUX4 Gear
+#
+
+sh /etc/init.d/rc.vtol_defaults
+
+if [ $AUTOCNF == yes ]
+then
+	param set MC_ROLL_P 7.0
+	param set MC_ROLLRATE_P 0.19
+	param set MC_ROLLRATE_I 0.002
+	param set MC_ROLLRATE_D 0.005
+	param set MC_ROLLRATE_FF 0.0
+	param set MC_PITCH_P 7.0
+	param set MC_PITCHRATE_P 0.14
+	param set MC_PITCHRATE_I 0.002
+	param set MC_PITCHRATE_D 0.004
+	param set MC_PITCHRATE_FF 0.0
+	param set MC_YAW_P 4.0
+	param set MC_YAW_FF 0.5
+	param set MC_YAWRATE_P 0.22
+	param set MC_YAWRATE_I 0.02
+	param set MC_YAWRATE_D 0.0
+	param set MC_YAWRATE_FF 0.0
+
+	param set VT_TILT_MC 0
+	param set VT_TILT_TRANS 0.2
+	param set VT_TILT_FW 1.0
+
+	param set VT_MOT_COUNT 4
+	param set VT_FW_MOT_OFFID 24
+	param set VT_IDLE_PWM_MC 1080
+	param set VT_TYPE 1
+fi
+
+set MIXER vtol_y4
+set PWM_OUT 1234
+set PWM_RATE 400
+
+set MIXER_AUX vtol_y4
+
+set MAV_TYPE 21

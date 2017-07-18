@@ -1,0 +1,7 @@
+Build/
+build/
+.DS_Store
+*~
+models/iris/*.sdf
+*.pyc
+.*.sw?

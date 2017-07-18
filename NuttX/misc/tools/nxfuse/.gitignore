@@ -1,0 +1,4 @@
+.config
+include/nuttx/config.h
+nxfuse
+

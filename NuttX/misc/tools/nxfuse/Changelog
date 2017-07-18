@@ -1,0 +1,21 @@
+1.0 2016-01-07  Ken Pettit <pettitkd@gmail.com>
+
+	* Initial Release
+	* Support for SmartFS filesystems on regular files or Linux block
+	  files (e.g. /dev/loop0, /dev/sdb, etc.)
+
+1.1 2016-01-08  Ken Pettit <pettitkd@gmail.com>
+
+	* Added support for mounting and creating SmartFS multi-root 
+	  directories.  Only a single root directory can be mounted at a
+	  time becasue FUSE launches separate clone applications for each
+	  Linux mount.
+	* Added support for program version reporting.
+
+1.2 2016-01-08  Ken Pettit <pettitkd@gmail.com>
+
+	* Fixed the NXFFS implementation so it works (within the confines of
+	  the NXFFS architectural limitations).
+	* Updates to the man page and README files to reflect functional
+	  NXFFS operation status.
+

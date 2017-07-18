@@ -1,0 +1,23 @@
+language: cpp
+
+matrix:
+  fast_finish: true
+  include:
+    - os: linux
+      dist: trusty
+      compiler: gcc
+    - os: linux
+      dist: trusty
+      compiler: clang
+      env: CC=clang CXX=clang++
+
+addons:
+  apt:
+    packages:
+    - clang
+    - cmake
+    - g++
+    - gcc
+    - libeigen3-dev
+
+script: ./build.sh
