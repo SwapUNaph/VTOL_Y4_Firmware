@@ -1,9 +1,9 @@
 ## VTOL Y4 Tiltrotor
 The firmware for VTOL Y4 Tiltrotor UAV is based on px4 autopilot firmware.
-The simulink model of the tiltrotor can be found here: ![alt] (https://github.com/SwapUNaph/VTOL_Y4_Tiltrotor_UAV_MATLAB_Model)
-The UAV design and controls are described:
-* [Design and Manufacturing ] (https://swapneelnaphade.site/projects/vtol-tiltrotor-uav)
-* [Simulation and Control ] (https://swapneelnaphade.site/projects/vtol-tiltrotor-uav-simulation-and-control)
+The simulink model of the tiltrotor can be found [here](https://github.com/SwapUNaph/VTOL_Y4_Tiltrotor_UAV_MATLAB_Model).
+The UAV design and controls are explained in the following blog posts:
+* [Design and Manufacturing ](https://swapneelnaphade.site/projects/vtol-tiltrotor-uav/)
+* [Simulation and Control ](https://swapneelnaphade.site/projects/vtol-tiltrotor-uav-simulation-and-control/)
 
 *The rest of the READme is px4 autopilot readme.*
 ## PX4 Pro Drone Autopilot ##
