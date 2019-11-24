@@ -1,3 +1,11 @@
+## VTOL Y4 Tiltrotor
+The firmware for VTOL Y4 Tiltrotor UAV is based on px4 autopilot firmware.
+The simulink model of the tiltrotor can be found here: ![alt] (https://github.com/SwapUNaph/VTOL_Y4_Tiltrotor_UAV_MATLAB_Model)
+The UAV design and controls are described:
+* [Design and Manufacturing ] (https://swapneelnaphade.site/projects/vtol-tiltrotor-uav)
+* [Simulation and Control ] (https://swapneelnaphade.site/projects/vtol-tiltrotor-uav-simulation-and-control)
+
+*The rest of the READme is px4 autopilot readme.*
 ## PX4 Pro Drone Autopilot ##
 
 [![Releases](https://img.shields.io/github/release/PX4/Firmware.svg)](https://github.com/PX4/Firmware/releases) [![DOI](https://zenodo.org/badge/22634/PX4/Firmware.svg)](https://zenodo.org/badge/latestdoi/22634/PX4/Firmware) [![Build Status](https://travis-ci.org/PX4/Firmware.svg?branch=master)](https://travis-ci.org/PX4/Firmware) [![Coverity Scan](https://scan.coverity.com/projects/3966/badge.svg?flat=1)](https://scan.coverity.com/projects/3966?tab=overview)
