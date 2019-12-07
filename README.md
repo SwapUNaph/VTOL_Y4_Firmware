@@ -6,8 +6,9 @@ The UAV design and controls are explained in the following blog posts:
 * [Simulation and Control ](https://swapneelnaphade.site/projects/vtol-tiltrotor-uav-simulation-and-control/)
 
 Gazebo simulation video:
+<p align="center"><img width="500" src="https://img.youtube.com/vi/z3NzB00V8sM/maxresdefault.jpg"></p><br>
 
-[ ![Video link](https://img.youtube.com/vi/z3NzB00V8sM&feature=youtu.be/maxresdefault.jpg)](https://www.youtube.com/watch?v=z3NzB00V8sM&feature=youtu.be)
+[ ![Video link](https://img.youtube.com/vi/z3NzB00V8sM/maxresdefault.jpg)](https://www.youtube.com/watch?v=z3NzB00V8sM&feature=youtu.be)
 
 *The rest of the READme is px4 autopilot readme.*
 ## PX4 Pro Drone Autopilot ##
